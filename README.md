@@ -1,4 +1,5 @@
-# 
+# Supplementary Information: Machinelearning based epigenomic and genomic prediction of cognitive decline in Parkinson’s Disease
+Additional methods and data for ECD poster 2020
 
 ## 1.	Participants
 Data from the [Parkinson’s Progression Markers Initiative (PPMI)](https://www.ppmi-info.org/) de-novo cohort, defined by a diagnosis of PD within two years and unmedicated for motor symptoms at baseline (n=423) were analysed for trajectories of cognitive decline using an education adjusted Montreal Cognitive Assessment (MoCA) as a primary metric for global cognition. Cases were removed that were below a cut-off for severe cognitive impairment at baseline (n = 35) and without a minimum of three longitudinal observations (n = 3). Records were used up to seven years from baseline after which high levels of attrition was observed. Cases had a median of seven follow up observations over a mean of 3 years from baseline
