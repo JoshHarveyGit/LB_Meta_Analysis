@@ -1,4 +1,4 @@
-# Supplementary Information: Machinelearning based epigenomic and genomic prediction of cognitive decline in Parkinson’s Disease
+# Supplementary Information: Machine learning based epigenomic and genomic prediction of cognitive decline in Parkinson’s Disease
 Additional methods and data for ECD poster 2020
 
 ## 1.	Participants
