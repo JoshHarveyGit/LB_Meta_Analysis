@@ -17,5 +17,10 @@ Polygenic risk scores (PRS) were calculated using summary statistics from recent
 ## 1.4.	Methylomic data
 Methods for whole blood DNA methylation data generated at baseline has been previously reported. Raw IDAT files were downloaded, quality controlled and normalised following established pipelines using the R package wateRmelon. Briefly, samples with low signal intensities or bisulphite conversion rate, mismatched reported and imputed sex or cryptic relatedness were excluded. P-filtering was applied using the pfilter() function, excluding samples with  >1 % of probes with a detection P value >0.05 and probes with >1 % of samples with detection P value >0.05. 284 de-novo PD cases with latent class annotation passed QC and were carried forward. The minfi package functions read.metharray.exp() and preprocessNoob() were used to generate RGSet objects and blood cell proportions using the estimateCellCounts2() function of the FlowSorted.Blood.EPIC package.Beta values for each probe was quantile normalised using the dasen() function and probes annotated as cross-hybridised or for SNP genotyping removed. Beta values were converted to M values using the beta2M() in the lumi package. Probes annotated to sex chromosomes were removed and sex effect was normalised using the removeBatchEffect() function in the limma package. Median absolute variation for each probe was calculated and the top 100,000 most variable probes were carried forward for analysis. 
 
+# Leave-p-Out Cross-Validation Differential Expression Analysis (KDEA or LpO-CV-DEA)
+This algorithm randomly resamples the original dataset using only 80% of all samples for K folds. Each fold is processed using limma, Pvalues and LogFC is generated and stored. Median LogFC and amount of significant ocurrences are ranked and combined to a combined rank. An image is generated indicative of the variation and significance based on the collective results. The Ranked features are resulted and the robust features from the image are resulted in a list.
+[Additional Information and Working Example](https://github.com/Rrtk2/RRtest/blob/master/docs/KDEA.md) 
+
+
 ## 1.4.	Differential methylation analysis
 
