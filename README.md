@@ -23,4 +23,4 @@ Significant methylation features were extracted using a custom pipeline. This al
 [Additional Information and Working Example](https://github.com/Rrtk2/RRtest/blob/master/docs/KDEA.md) 
 
 ## 6. Machine Learning
-
+![Latent Class Summaries](https://github.com/JoshHarveyGit/ECD-Poster/blob/main/figures/Workflowv4.png?raw=true)
