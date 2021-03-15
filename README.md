@@ -24,8 +24,8 @@ Latent Class Mixed Modelling (LCMM) was conducted using the R package lcmm. MoCA
 
 ### Methylomic association analysis
 Whole blood DNA methylation was tested using linear regression analysis for association between the stable and declining groups, subset as binary groups. No probes where found to pass genome-wide significance. Despite some initial promising results for machine learning based prediciton of class membership using baseline methylation data, this showed poor replicability and was highly dependent on input parameters. 
-
-
+![Manhattan Plot](https://github.com/JoshHarveyGit/Cognitive_Trajectory_Poster/blob/main/figures/Manhattan.png)
+![ML Results](https://github.com/JoshHarveyGit/Cognitive_Trajectory_Poster/blob/main/figures/Old%20ML%20results.png)
 ### Multivariate prediction of cognitive outcome
 Due to this weak association and the relative subtelty of our cognitive trajectory phenotype, we are currently focussing analysis on subsetting populations based on clinically based MDS-criteria diagnosis and utilising a mixture of clinical, csf-fluid assay and genetic measures to predict longitudinal conversion. Random forest based machine learning is being employed to test the prediciton of longitudinal cognitive change. 
 
